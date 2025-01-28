@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'This RC Car uses ESP-NOW for wireless communication between a wrist-mounted gesture sensor and the onboard microcontroller, enabling seamless operation up to 200 meters for 2 hours on one charge. Its intuitive gesture-based control system is designed for individuals with minimal motor control, while the simple control schema makes it easy for children to learn and enjoy. The controls are fully customizable, allowing users to remap functionality as needed. All components, including the shell, electronics mount, and decals, were originally designed specifically for this project, taking inspiration from the movie "Cars".',
           imageUrl:
-            'https://drive.google.com/uc?export=view&id=12HIKRdH8b3CmG6N_w-fIQjXYrqyPkmO8',
+            'https://imgur.com/a/lfR10sy',
           link: 'https://drive.google.com/file/d/1jCBjBCmazpqCxpNRv6A-RS74yoz4e5Lp/view?usp=sharing',
         },
         {
