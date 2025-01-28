@@ -29,13 +29,14 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'My Projects (Click for Images)',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'Assistive Gesture-Controlled RC Car',
           description:
-            'This RC Car uses ESP-NOW for wireless communication between a wrist-mounted gesture sensor and the onboard microcontroller, enabling seamless operation up to 200 meters for 2 hours on one charge. Its intuitive gesture-based control system is designed for individuals with minimal motor control, while the simple control schema makes it easy for children to learn and enjoy. The controls are fully customizable, allowing users to remap functionality as needed. All components, including the shell, electronics mount, and decals, were originally designed specifically for this project, taking inspiration from the movie "Cars".',
+            'This RC Car uses ESP-NOW for wireless communication between a wrist-mounted gesture sensor and the onboard microcontroller, enabling seamless operation up to 200 meters for 2 hours on one charge. Its intuitive gesture-based control system is designed for individuals with minimal motor control, while the simple control schema makes it easy for children to learn and enjoy. The controls are fully customizable, allowing users to remap functionality as needed. All components, including the shell, electronics mount, and decals, were originally designed specifically for this project, taking inspiration from the movie "Cars".[Data Sheet Here](https://docs.google.com/document/d/1bBUJNhYdBuaf1FbyPeLOrBkFR3FWbt-dpL2SjpOn3xM/edit?usp=sharing)
+',
           imageUrl:
             'https://i.imgur.com/7GQKnAI.png',
           link: 'https://drive.google.com/file/d/1jCBjBCmazpqCxpNRv6A-RS74yoz4e5Lp/view?usp=sharing',
