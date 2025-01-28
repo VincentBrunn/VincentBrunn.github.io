@@ -94,9 +94,6 @@ const CONFIG = {
     'Cryostat/PCR',
     'Fluent German',
     'Conversational Thai and Japanese',
-    '',
-    '',
-    '',
   ],
   experiences: [
     {
@@ -107,11 +104,25 @@ const CONFIG = {
       companyLink: 'https://www.bu.edu/eng/academics/teaching-and-innovation/robotics-autonomous-systems-teaching-innovation-center/',
     },
     {
+      company: 'Boston University Office of Admissions',
+      position: 'Admissions Ambassador',
+      from: 'September 2023',
+      to: 'Present',
+      companyLink: 'https://www.bu.edu/admissions/',
+    },
+    {
       company: 'Harvard Medical School - von Andrian Lab',
       position: 'Research Intern',
       from: 'June 2022',
       to: 'August 2024',
       companyLink: 'https://vonandrian.hms.harvard.edu/',
+    },
+    {
+      company: 'Boston University Diversity Board',
+      position: 'Admissions Student Diversity Board Member',
+      from: 'September 2023',
+      to: 'Present',
+      companyLink: 'https://asdbbu.wixsite.com/home',
     },
   ],
   certifications: [
