@@ -183,6 +183,9 @@ const CONFIG = {
   },
   themeConfig: {
     defaultTheme: 'lofi',
+    customTheme: {
+      '--rounded-box': '0rem',
+      '--rounded-btn': '0rem',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
