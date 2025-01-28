@@ -183,9 +183,6 @@ const CONFIG = {
   },
   themeConfig: {
     defaultTheme: 'lofi',
-    customTheme: {
-      '--rounded-box': '0rem',
-      '--rounded-btn': '0rem',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -248,11 +245,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: ``,
 
   enablePWA: true,
 };
