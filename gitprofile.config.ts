@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/13H7uvoVGheY3K_AArjbYxyTzNqnNNDwW/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1rnqyxd3zq4EXX_8tJxImCy6d9x3ZRQH6/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'CAD (Solidworks, Onshape)',
