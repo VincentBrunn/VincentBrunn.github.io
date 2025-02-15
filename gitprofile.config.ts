@@ -41,12 +41,12 @@ const CONFIG = {
           link: 'https://drive.google.com/file/d/1jCBjBCmazpqCxpNRv6A-RS74yoz4e5Lp/view?usp=sharing',
         },
         {
-          title: '',
+          title: 'Customizable Hand Gesture Recognition for Prosthetic Control',
           description:
-            '',
+            'Developed a KNN-based hand gesture recognition system using MediaPipe and OpenCV, enabling users to train and classify custom gestures in real-time. The open-source framework allows for easy adaptation, making it ideal for prosthetic hand control, robotics, and assistive technology applications. Future development includes integrating the system with hardware interfaces to map gestures into functional prosthetic movements. Demo Video on Github Repo',
           imageUrl:
-            '',
-          link: '',
+            'https://i.imgur.com/tGhXEVH.png',
+          link: 'https://github.com/VincentBrunn/Prosthetic_Trainer',
         },
       ],
     },
