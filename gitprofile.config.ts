@@ -84,6 +84,9 @@ const CONFIG = {
   },
   skills: [
     'CAD (Solidworks, Onshape)',
+    'CNC/Machining',
+    'Laser Cutting',
+    '3D Printing',
     'Python',
     'MATLAB',
     'MQTT Networks',
