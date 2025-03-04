@@ -49,7 +49,7 @@ const CONFIG = {
           link: 'https://drive.google.com/file/d/1jCBjBCmazpqCxpNRv6A-RS74yoz4e5Lp/view?usp=sharing',
         },
         {
-          title: 'Arduino-Based Smart Thermometer,
+          title: 'Arduino-Based Smart Thermometer',
           description:
             'Designed and built a portable room temperature monitor using an Arduino Uno, TMP36 temperature sensor, and LCD display. The system provides real-time temperature readings and activates an alarm (buzzer + LED) if the temperature goes outside a predefined range. The project involved custom enclosure design, wiring, and programming to create a standalone device with potential applications in climate control, IoT monitoring, and smart home systems.',
           imageUrl:
