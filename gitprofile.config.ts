@@ -41,20 +41,20 @@ const CONFIG = {
           link: 'https://github.com/VincentBrunn/Prosthetic_Trainer',
         },
         {
-          title: 'Arduino-Based Smart Thermometer',
-          description:
-            'Designed and built a portable room temperature monitor using an Arduino Uno, TMP36 temperature sensor, and LCD display. The system provides real-time temperature readings and activates an alarm (buzzer + LED) if the temperature goes outside a predefined range. The project involved custom enclosure design, wiring, and programming to create a standalone device with potential applications in climate control, IoT monitoring, and smart home systems.',
-          imageUrl:
-            'https://i.imgur.com/5yAOa4n.png',
-          link: 'https://github.com/VincentBrunn/SmartTempMonitor',
-        },
-        {
           title: 'Assistive Gesture-Controlled RC Car',
           description:
             'This RC Car uses ESP-NOW for wireless communication between a wrist-mounted gesture sensor and the onboard microcontroller, enabling seamless operation up to 200 meters for 2 hours on one charge. Its intuitive gesture-based control system is designed for individuals with minimal motor control, while the simple control schema makes it easy for children to learn and enjoy. The controls are fully customizable, allowing users to remap functionality as needed. All components, including the shell, electronics mount, and decals, were originally designed specifically for this project, taking inspiration from the movie "Cars".',
           imageUrl:
             'https://i.imgur.com/7GQKnAI.png',
           link: 'https://drive.google.com/file/d/1jCBjBCmazpqCxpNRv6A-RS74yoz4e5Lp/view?usp=sharing',
+        },
+        {
+          title: 'Arduino-Based Smart Thermometer',
+          description:
+            'Designed and built a portable room temperature monitor using an Arduino Uno, TMP36 temperature sensor, and LCD display. The system provides real-time temperature readings and activates an alarm (buzzer + LED) if the temperature goes outside a predefined range. The project involved custom enclosure design, wiring, and programming to create a standalone device with potential applications in climate control, IoT monitoring, and smart home systems.',
+          imageUrl:
+            'https://i.imgur.com/5yAOa4n.png',
+          link: 'https://github.com/VincentBrunn/SmartTempMonitor',
         },
       ],
     },
