@@ -97,6 +97,7 @@ const CONFIG = {
     '3D Printing',
     'Python',
     'MATLAB',
+    'CoppeliaSim',
     'MQTT Networks',
     'Prototyping',
     'Microsoft Suite',
