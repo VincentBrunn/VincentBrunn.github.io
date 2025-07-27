@@ -59,7 +59,10 @@ const GitProfile = ({ config }: { config: Config }) => {
             .map((project) => `+-repo:${project}`)
             .join('');
 
-        const query = `user:${sanitizedConfig.github.username}+fork:${!sanitizedConfig.projects.github.automatic.exclude.forks}${excludeRepo}`;
+        const query = `user:${
+          sanitizedConfig.github.username
+        }+fork:${!sanitizedConfig.projects.github.automatic.exclude
+          .forks}${excludeRepo}`;
         const url = `https://api.github.com/search/repositories?q=${query}&sort=${sanitizedConfig.projects.github.automatic.sortBy}&per_page=${sanitizedConfig.projects.github.automatic.limit}&type=Repositories`;
 
         const repoResponse = await axios.get(url, {
@@ -119,7 +122,7 @@ const GitProfile = ({ config }: { config: Config }) => {
       }
 
       setGithubProjects(await getGithubProjects(data.public_repos));
-    } catch (error) {
+    } catch (error) => {
       handleError(error as AxiosError | Error);
     } finally {
       setLoading(false);
@@ -246,6 +249,19 @@ const GitProfile = ({ config }: { config: Config }) => {
                 </div>
                 <div className="lg:col-span-2 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
+                    {/* THIS IS NOW FIRST: EXTERNAL PROJECTS */}
+                    {sanitizedConfig.projects.external.projects.length !==
+                      0 && (
+                      <ExternalProjectCard
+                        loading={loading}
+                        header={sanitizedConfig.projects.external.header}
+                        externalProjects={
+                          sanitizedConfig.projects.external.projects
+                        }
+                        googleAnalyticId={sanitizedConfig.googleAnalytics.id}
+                      />
+                    )}
+                    {/* THIS IS NOW SECOND: GITHUB PROJECTS */}
                     {sanitizedConfig.projects.github.display && (
                       <GithubProjectCard
                         header={sanitizedConfig.projects.github.header}
@@ -260,17 +276,6 @@ const GitProfile = ({ config }: { config: Config }) => {
                       <PublicationCard
                         loading={loading}
                         publications={sanitizedConfig.publications}
-                      />
-                    )}
-                    {sanitizedConfig.projects.external.projects.length !==
-                      0 && (
-                      <ExternalProjectCard
-                        loading={loading}
-                        header={sanitizedConfig.projects.external.header}
-                        externalProjects={
-                          sanitizedConfig.projects.external.projects
-                        }
-                        googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
                     {sanitizedConfig.blog.display && (
